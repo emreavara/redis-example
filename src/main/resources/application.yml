@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: redis
+  cache:
+    type: redis
+    cache-names: contacts
+  data:
+    redis:
+      host: localhost
+      port: 6379
+
+
+
